@@ -8,7 +8,7 @@ orgiName =""
 bckName =""
 
 def doBackup(response):
-	if response == "s":
+	if response == "y":
 		print("Doing backup ")
 		print ("sudo cp  + path_img + orgiName + "  + path_img + bckName )
 		os.system(" sudo mv " + path_img + orgiName + " " + path_img + bckName )
@@ -43,7 +43,7 @@ if __name__ == "__main__":
 	bckName = "Mojave_old.heic"
 	path_new_image= raw_input("Location of new image: ")
 	path_new_image = path_new_image.strip()
-	backup = raw_input("Do you like a backup of old image? [s/n]")
+	backup = raw_input("Would you like to make a backup of the old image?? [y/n]")
 	doBackup(backup)
 	mvImg(path_new_image)
 	print("Once you have copied the image, you should follow these steps:\n" +
