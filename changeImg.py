@@ -39,8 +39,8 @@ if __name__ == "__main__":
 	print( "              __/ |               __/ |             __/ |                      ")
 	print( "             |___/               |___/             |___/                       ")
 	path_img = "/Library/Desktop\\ Pictures/"
-	orgiName= "Mojave_tst.heic"
-	bckName = "Mojave_test_old.heic"
+	orgiName= "Mojave.heic"
+	bckName = "Mojave_old.heic"
 	path_new_image= raw_input("Location of new image: ")
 	path_new_image = path_new_image.strip()
 	backup = raw_input("Do you like a backup of old image? [s/n]")
