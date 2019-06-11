@@ -1,2 +1,2 @@
 # LogImgChgMAC
-Script to change de image of logging in Mojave
+Script to Change the Login Screen Background on macOS Mojave
